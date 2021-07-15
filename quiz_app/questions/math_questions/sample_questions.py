@@ -1,4 +1,4 @@
-from questions.question import Question
+from quiz_app.questions.question import Question
 import random
 
 class Multiplication(Question):
