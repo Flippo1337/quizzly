@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content%}
+<h1>{{question}}</h1>
+<div class="d-grid gap-2">
+  {% for answer in answers %}
+  <button class="btn btn-primary" type="button">{{answer}}</button>
+  {% endfor %}
+</div>
+{% endblock %}

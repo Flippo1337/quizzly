@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content%}
+<h1>Choose your quiz type</h1>
+<nav><a href="{{ url_for('addition_quiz')}}">Addition</a></nav>
+<nav><a href="{{ url_for('subtraction_quiz')}}">Subtraction</a></nav>
+{% endblock %}
