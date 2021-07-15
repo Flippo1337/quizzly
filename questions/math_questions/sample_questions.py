@@ -35,17 +35,17 @@ class QuadraticEqNumberOfRoots(Question):
     def render(self):
         # with a 1/3 chance pick an equation that has only 1 root
         if random.random() < 1/3:
-            root = random.randint(-3, 3+1)
-            r = random.randint(-5, 5+1)
+            root = self.randint(-3, 3+1)
+            r = self.randint(-5, 5+1, exclude=0)
             a = r
             b = -r * 2 * root
             c = r * root ** 2
 
         # else use a random equation
         else:
-            a = random.randint(self.lower_bound, self.upper_bound + 1)
-            b = random.randint(self.lower_bound, self.upper_bound + 1)
-            c = random.randint(self.lower_bound, self.upper_bound + 1)
+            a = self.randint(self.lower_bound, self.upper_bound + 1, exclude=[0])
+            b = self.randint(self.lower_bound, self.upper_bound + 1)
+            c = self.randint(self.lower_bound, self.upper_bound + 1)
 
         question = f'What is the number of real roots of this equation? $${a}x^2+{b}x+{c}$$'
 

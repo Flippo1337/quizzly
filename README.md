@@ -14,3 +14,6 @@
 - https://latexbase.com/d/837e3958-580c-4f78-a9ac-a8798861c11e
 - mathjax
 - matplotlib text
+
+### question base class
+- provide helpful random methods (e.g. randint but not 0)
