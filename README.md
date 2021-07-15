@@ -5,3 +5,6 @@
 
 ## Documentation
 - you can use the web tool https://www.yworks.com/yed-live/ to show and edit the .graphml files (or download and install yed)
+
+## Features
+- multi language support
