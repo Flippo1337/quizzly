@@ -1,5 +1,6 @@
-from quiz_app.questions.question import Question
+from quiz_app.questions.question_types.utils.question import Question
 import random
+
 
 class Multiplication(Question):
     def __init__(self, seed=0, language='en', lower_bound=0, upper_bound=10):

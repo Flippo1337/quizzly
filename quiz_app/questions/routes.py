@@ -1,5 +1,5 @@
-from flask import render_template, request, Blueprint
-from quiz_app.questions.math_questions.sample_questions import QuadraticEqNumberOfRoots
+from flask import render_template, Blueprint
+from quiz_app.questions.question_types.math_questions.sample_questions import QuadraticEqNumberOfRoots
 import random
 
 questions = Blueprint('questions', __name__)
