@@ -1,9 +1,7 @@
 from flask import Flask, render_template
-from flask_bootstrap import Bootstrap
 from question_generator import generate_two_number_addition_or_subtraction_question
 
 app = Flask(__name__)
-Bootstrap(app)
 
 
 @app.route('/')
