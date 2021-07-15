@@ -14,6 +14,7 @@ def create_app(config_class=None):
     # from flaskblog.posts.routes import posts
     # from flaskblog.main.routes import main
     from quiz_app.main.routes import main
+    from quiz_app.questions.routes import questions
     app.register_blueprint(main)
-
+    app.register_blueprint(questions)
     return app
