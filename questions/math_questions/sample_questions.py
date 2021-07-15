@@ -2,7 +2,7 @@ from questions.question import Question
 import random
 
 class Multiplication(Question):
-    def __init__(self, seed=0, language='en', upper_bound=10, lower_bound=0):
+    def __init__(self, seed=0, language='en', lower_bound=0, upper_bound=10):
         super().__init__(seed=seed, language=language)
         self.upper_bound = upper_bound
         self.lower_bound = lower_bound
@@ -24,6 +24,35 @@ class Multiplication(Question):
                 wrong_answers.append(x * y)
 
         return question, correct_answer, wrong_answers
+
+
+class QuadraticEqNumberOfRoots(Question):
+    def __init__(self, seed=0, language='en', lower_bound=-10, upper_bound=10):
+        super().__init__(seed=seed, language=language)
+        self.upper_bound = upper_bound
+        self.lower_bound = lower_bound
+
+    def render(self):
+        a = random.randint(self.lower_bound, self.upper_bound + 1)
+        b = random.randint(self.lower_bound, self.upper_bound + 1)
+        c = random.randint(self.lower_bound, self.upper_bound + 1)
+
+        question = f'What is the number of real roots of this equation? $${a}x^2+{b}x+{c}$$'
+
+        discriminant = b**2-4*a*c
+        if discriminant == 0:
+            correct_answer = 1
+        elif discriminant > 0:
+            correct_answer = 2
+        else:
+            correct_answer = 0
+
+        wrong_answers = [0, 1, 2, 3]
+        wrong_answers.remove(correct_answer)
+
+        return question, correct_answer, wrong_answers
+
+
 
 
 def Playground():
@@ -64,5 +93,9 @@ def Playground():
 if __name__ == '__main__':
     q = Multiplication(1)
     print(q.render())
+
+    q = QuadraticEqNumberOfRoots()
+    print(q.render())
+
     Playground()
 

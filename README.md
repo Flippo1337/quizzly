@@ -8,3 +8,9 @@
 
 ## Features
 - multi language support
+- optionally provide explanation (could contain graphs, images as well) to show when answer is revealed
+
+### render formulas
+- https://latexbase.com/d/837e3958-580c-4f78-a9ac-a8798861c11e
+- mathjax
+- matplotlib text
