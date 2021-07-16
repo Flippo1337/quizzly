@@ -1,5 +1,5 @@
 from datetime import datetime
-from run import db
+from quiz_app import db
 
 
 # MODELS

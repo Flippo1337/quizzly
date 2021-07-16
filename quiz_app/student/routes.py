@@ -1,11 +1,11 @@
 from flask import render_template, request, Blueprint
 from quiz_app.questions.question_types.question_generator import generate_two_number_addition_or_subtraction_question
 from quiz_app.student.forms import EnterQuiz
-
 student = Blueprint('student', __name__)
 
 
-@student.route('/student_landing')
+
+@student.route('/student_landing', methods=['GET', 'POST'])
 def student_landing():
     name = None
     quiz_id = None

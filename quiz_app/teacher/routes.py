@@ -1,5 +1,7 @@
 from flask import render_template, request, Blueprint
 from quiz_app.teacher.forms import GenerateQuizForm
+from quiz_app.models import Quiz
+from quiz_app import db
 teacher = Blueprint('teacher', __name__)
 
 
@@ -10,7 +12,7 @@ def home():
     return render_template('home.html', title='Welcome')
 
 
-@teacher.route('/teacher_landing')
+@teacher.route('/teacher_landing', methods=['GET', 'POST'])
 def teacher_landing():
     topic = False
     form = GenerateQuizForm()
