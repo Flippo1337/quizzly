@@ -1,8 +1,10 @@
-from flask import render_template, request, Blueprint, redirect, url_for, flash
+from flask import render_template, request, Blueprint, redirect, url_for, flash, session
+import json
+
 from quiz_app.questions.question_types.question_generator import generate_two_number_addition_or_subtraction_question
-from quiz_app.student.forms import EnterQuiz
+from quiz_app.student.forms import EnterQuiz, Lobby
 from quiz_app import db
-from quiz_app.models import Quiz, User
+from quiz_app.models import Quiz, User, Answer, Question
 
 student = Blueprint('student', __name__)
 
@@ -10,7 +12,7 @@ student = Blueprint('student', __name__)
 @student.route('/student_landing', methods=['GET', 'POST'])
 def student_landing():
     name = None
-    quiz_id = None
+    quiz_id = request.args.get('quiz_id')
     form = EnterQuiz()
     if form.validate_on_submit():
         name = form.name.data
@@ -26,23 +28,68 @@ def student_landing():
         user = User(quiz_id=quiz_id, user_name=name)
         db.session.add(user)
         db.session.commit()
+        session['quiz_id'] = quiz_id
+        session['username'] = name
         return redirect(url_for('student.student_quiz_lobby'))
 
+    form.quiz_id.data = quiz_id
     return render_template('student_landing.html', form=form, name=name)
 
 
-@student.route('/student_quiz_lobby')
+@student.route('/student_quiz_lobby', methods=['GET', 'POST'])
 def student_quiz_lobby():
-    return render_template('student_quiz_lobby.html')
+
+    form = Lobby()
+    if form.validate_on_submit():
+        return redirect(url_for('student.question'))
+
+    return render_template('student_quiz_lobby.html', form=form)
 
 
-@student.route('/question')
+@student.route('/question', methods=['GET', 'POST'])
 def question():
-    question_data = generate_two_number_addition_or_subtraction_question('addition')
+    quiz_id = session['quiz_id']
+    username = session['username']
+    user = db.session.query(User).filter_by(quiz_id=quiz_id, user_name=username).all()
+    user = user[0]
+
+    if request.method == 'POST':
+        answer = request.values.get('answer')
+        question_id = request.values.get('question_id')
+        answer = Answer(user=user, question_id=question_id, answer=answer)
+        db.session.add(answer)
+        db.session.commit()
+        return redirect(url_for('student.question'))
+
+
+
+    # TODO: make sure we only have one user and identify by id (in session?)
+
+    answers = user.answers
+    if len(answers) > 0:
+        current_question_index = max([answer.question.question_number for answer in answers]) + 1
+    else:
+        current_question_index = 0
+
+    current_question = db.session.query(Question).filter_by(quiz_id=quiz_id, question_number=current_question_index).one()
+
+    n_questions = db.session.query(Question).filter_by(quiz_id=quiz_id).count()
+
+    question_data = json.loads(current_question.question_json)
+
+    if 'figure_png' in question_data:
+        optional_arguments = {'figure_png': question_data['figure_png']}
+    else:
+        optional_arguments ={}
+
     return render_template('question.html',
+                           question_id=current_question.question_id,
+                           question_index=current_question_index,
+                           n_questions=n_questions,
                            question=question_data['question_string'],
                            answers=question_data['all_answers'],
-                           title='Addition Quiz')
+                           title='TODO: add question title',
+                           **optional_arguments)
 
 
 @student.route('/quiz_results')

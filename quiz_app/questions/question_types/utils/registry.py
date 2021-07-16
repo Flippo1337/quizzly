@@ -42,4 +42,15 @@ if __name__ == '__main__':
     registry = QuestionRegistry()
     questions = registry.generate_questions(10, seed=0)
     print(questions)
+
+    q = questions[0]
+
+    import pickle
+    import json
+
+    sp = pickle.dumps(q)
+    len(json.dumps(q))
+
+
+
     print(registry.tags_by_question)

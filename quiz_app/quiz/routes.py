@@ -1,7 +1,10 @@
 import json
 import uuid
-
+import io
+import qrcode
+import base64
 from flask import render_template, request, Blueprint, redirect, url_for, session
+
 from quiz_app.quiz.forms import GenerateQuizForm
 from quiz_app.models import Question, Quiz
 from quiz_app import db
@@ -53,4 +56,10 @@ def create_quiz():
 
 @quiz.route('/quiz_lobby', methods=['GET', 'POST'])
 def quiz_lobby():
-    return render_template('teacher_quiz_lobby.html', quiz_id=session['quiz_id'])
+
+    qrcode_img = qrcode.make(url_for('student.student_landing', quiz_id=session['quiz_id'], _external=True))
+    qrcode_png = io.BytesIO()
+    qrcode_img.save(qrcode_png, 'png')
+    qrcode_png_str = "data:image/png;base64,"
+    qrcode_png_str += base64.b64encode(qrcode_png.getvalue()).decode('utf8')
+    return render_template('teacher_quiz_lobby.html', quiz_id=session['quiz_id'], qrcode_png_str=qrcode_png_str)

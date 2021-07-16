@@ -21,7 +21,7 @@ class Question(db.Model):
     question_number = db.Column(db.Integer)
     question_json = db.Column(db.String)
     correct_answer_index = db.Column(db.Integer)
-    quiz = db.relationship('Quiz', backref='question', lazy=True)
+    quiz = db.relationship('Quiz', backref='questions', lazy=True)
 
     def __init__(self, quiz_id, question_number, question_json, correct_answer_index):
         self.quiz_id = quiz_id
@@ -45,3 +45,5 @@ class Answer(db.Model):
     question_id = db.Column(db.Text, db.ForeignKey('question.question_id'))
     user_id = db.Column(db.Integer, db.ForeignKey('user.user_id'))
     answer = db.Column(db.Text)
+    question = db.relationship('Question', backref='answers', lazy=True)
+    user = db.relationship('User', backref='answers', lazy=True)
