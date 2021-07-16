@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.21.1-->
+  <key attr.name="Beschreibung" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0"/>
+    <node id="n0" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="190.80000000000013" width="259.1992499999999" x="259.5106989374999" y="425.92300800000004"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="259.1992499999999" x="0.0" xml:space="preserve" y="0.0">student landing page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="41" bottomF="41.36920400000099" left="33" leftF="32.90330106250008" right="55" rightF="55.295948937499816" top="14" topF="14.463541156249619"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="32.354432000000145" width="196.29683200000017" x="295.5194879999999" y="450.9230080000001"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="196.29683200000017" x="0.0" xml:space="preserve" y="0.0">student landing page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="32.354432000000145" closedWidth="196.29683200000017" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="24.818420000000856" width="57.0" x="297.414" y="470.3538039999993"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="34.017578125" x="11.4912109375" xml:space="preserve" y="3.058624062500428">name<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="27.409210000000428" width="57.0" x="401.414" y="467.76301399999966"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="42.02734375" x="7.486328125" xml:space="preserve" y="4.3540190625001856">quiz_id<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n0::n2">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="31.8620459999986" width="69.02242606250024" x="389.39157393749974" y="538.4917580000006"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="26.013671875" x="21.504377093750122" xml:space="preserve" y="6.5804370624993">Join<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n1" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="191.89400103759772" width="300.013546875" x="583.6188905625004" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="300.013546875" x="0.0" xml:space="preserve" y="0.0">student quiz lobby</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="23" leftF="22.99100940087851" right="26" rightF="26.418410734619556" top="81" topF="80.61461489684984"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="43.855999999999995" width="235.34400000000005" x="594.9616640000004" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="235.34400000000005" x="0.0" xml:space="preserve" y="0.0">quiz lobby</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="43.855999999999995" closedWidth="235.34400000000005" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n1:">
+        <node id="n1::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="27.409210000000485" width="76.40000000000009" x="698.164" y="557.3042240000002"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.685546875" x="11.857226562500045" xml:space="preserve" y="4.354019062500242">start quiz<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n1::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:SVGNode>
+              <y:Geometry height="66.76200103759766" width="56.554100036621094" x="611.6098999633789" y="557.3042240000002"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="26.277050018310547" y="70.76200103759766">
+                <y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:SVGNodeProperties usingVisualBounds="true"/>
+              <y:SVGModel svgBoundsPolicy="0">
+                <y:SVGContent refid="1"/>
+              </y:SVGModel>
+            </y:SVGNode>
+          </data>
+        </node>
+        <node id="n1::n2">
+          <data key="d5"/>
+          <data key="d6">
+            <y:SVGNode>
+              <y:Geometry height="58.38100051879883" width="58.50005340576172" x="793.7139732971191" y="553.1633037406"/>
+              <y:Fill color="#CCCCFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="27.25002670288086" y="62.38100051879883">
+                <y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:SVGNodeProperties usingVisualBounds="false"/>
+              <y:SVGModel svgBoundsPolicy="0">
+                <y:SVGContent refid="2"/>
+              </y:SVGModel>
+            </y:SVGNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n2" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="100.0" width="325.718625" x="-386.0708381874999" y="419.7850539999988"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="325.718625" x="0.0" xml:space="preserve" y="0.0">home page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="8" bottomF="7.503249999999525" left="34" leftF="34.46241212499962" right="59" rightF="59.25621287500036" top="16" topF="16.26428515625048"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="38.49843200000009" width="111.60000000000002" x="-380.0708381874999" y="447.8510080000001"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.60000000000002" x="0.0" xml:space="preserve" y="0.0">home page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="38.49843200000009" closedWidth="111.60000000000002" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n2:">
+        <node id="n2::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="43.855999999999995" width="76.40000000000009" x="-346.60842606250026" y="463.4258039999993"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="48.021484375" x="14.189257812500045" xml:space="preserve" y="12.577414062499997">Teacher<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n2::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="89.0" x="-213.60842606250026" y="470.3538039999993"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="45.3671875" x="21.81640625" xml:space="preserve" y="5.6494140625">Student<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n3" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="139.54121000000055" width="192.66666666666686" x="979.9536639999993" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="192.66666666666686" x="0.0" xml:space="preserve" y="0.0">Question</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="87" bottomF="86.53904406250155" left="151" leftF="150.64033600000005" right="2" rightF="2.0263306666668086" top="2" topF="1.9245292187490008"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="171.55078399999996" width="200.10000000000014" x="979.9536639999993" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="200.10000000000014" x="0.0" xml:space="preserve" y="0.0">Question</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="171.55078399999996" closedWidth="200.10000000000014" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n3:">
+        <node id="n3::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="15.919999999999959" width="30.0" x="1135.5939999999994" y="475.86380399999916"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="27.35546875" x="1.322265625" xml:space="preserve" y="-1.3905859375000205">1/10<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n4" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="139.54121000000055" width="163.27999999999975" x="1211.6016639999982" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="163.27999999999975" x="0.0" xml:space="preserve" y="0.0">Results Page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="9" bottomF="9.359630000001516" left="23" leftF="23.022336000001133" right="10" rightF="10.017663999998376" top="19" topF="18.525115156249058"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="146.26666666666665" x="1211.6016639999982" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="146.26666666666665" x="0.0" xml:space="preserve" y="0.0">Results Page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="146.26666666666665" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n4:">
+        <node id="n4::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="79.27999999999997" width="120.24000000000024" x="1239.6239999999993" y="491.0738039999992"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="48.103515625" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="82.69140625" x="18.77429687500012" xml:space="preserve" y="15.588242187499986">correct?
+correct answer
+total score<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n5" yfiles.foldertype="folder">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="1">
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="979.9536639999994" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="50.0" x="0.0" xml:space="preserve" y="0.0">2</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="38.1052160000001" width="167.60000000000014" x="1437.1073279999985" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="167.60000000000014" x="0.0" xml:space="preserve" y="0.0">Question</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="38.1052160000001" closedWidth="167.60000000000014" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n5:"/>
+    </node>
+    <node id="n6" yfiles.foldertype="folder">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="1">
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="1297.2016639999981" y="445.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="50.0" x="0.0" xml:space="preserve" y="0.0">2</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="192.66666666666674" x="1590.946325333332" y="144.17222400000014"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="192.66666666666674" x="0.0" xml:space="preserve" y="0.0">Final Results Page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="50.0" closedWidth="192.66666666666674" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n6:"/>
+    </node>
+    <node id="n7" yfiles.foldertype="folder">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="1">
+            <y:GroupNode>
+              <y:Geometry height="50.0" width="50.0" x="-104.84633599999984" y="11.98980399999914"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="50.0" x="0.0" xml:space="preserve" y="0.0">2</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="43.855999999999995" width="225.2" x="940.3939999999993" y="5.3178404218733135"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="225.2" x="0.0" xml:space="preserve" y="0.0">Teachers Overview</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="43.855999999999995" closedWidth="225.2" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n7:"/>
+    </node>
+    <node id="n8" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="141.6881960000008" width="256.70532812500005" x="-443.6127600624999" y="35.42541199999755"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="256.70532812500005" x="0.0" xml:space="preserve" y="0.0">Teacher landing page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="58" bottomF="58.428" left="24" leftF="24.26516672916341" right="32" rightF="31.640161395836685" top="21" topF="20.883731156250803"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="43.855999999999995" width="225.2" x="229.72332800000083" y="2.979607999998393"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="225.2" x="0.0" xml:space="preserve" y="0.0">Teacher landing page</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="43.855999999999995" closedWidth="225.2" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n8:">
+        <node id="n8::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="80.39999999999998" x="-414.3475933333365" y="83.68560799999835"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="51.361328125" x="14.519335937499989" xml:space="preserve" y="5.6494140625">new quiz<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n8::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="80.39999999999998" x="-303.9475933333365" y="83.68560799999835"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="52.03515625" x="14.182421874999989" xml:space="preserve" y="5.6494140625">load quiz<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n9" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="235.17646484374995" width="312.07480468749986" x="323.9103239374999" y="-90.34239200000167"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="312.07480468749986" x="0.0" xml:space="preserve" y="0.0">Teacher quiz lobby</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="29" bottomF="28.806733687499275" left="15" leftF="14.957580062500142" right="21" rightF="20.5711286249998" top="17" topF="17.023535156250034"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="52.86619600000074" width="256.70532812500005" x="544.1233280000008" y="2.979607999998393"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="256.70532812500005" x="0.0" xml:space="preserve" y="0.0">Teacher lobby</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="52.86619600000074" closedWidth="256.70532812500005" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n9:">
+        <node id="n9::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="59.599999999999966" width="99.59999999999991" x="343.86790400000007" y="27.257607999998356"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="60.666015625" x="19.466992187499955" xml:space="preserve" y="20.449414062499983">QR-CODE<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n9::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="44.799999999999955" width="76.40000000000009" x="513.6103239374997" y="66.22733915624906"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="57.349609375" x="9.525195312500045" xml:space="preserve" y="13.049414062499977">Start Quiz<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n9::n2">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="209.0" x="401.414" y="-45.94239200000163"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="149.4296875" x="29.78515625" xml:space="preserve" y="5.6494140625">list and # of students joined<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <node id="n10" yfiles.foldertype="group">
+      <data key="d4" xml:space="preserve"/>
+      <data key="d5"/>
+      <data key="d6">
+        <y:ProxyAutoBoundsNode>
+          <y:Realizers active="0">
+            <y:GroupNode>
+              <y:Geometry height="229.97646484374997" width="237.09367187500004" x="-40.066599906249905" y="-6.751052843752433"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="237.09367187500004" x="0.0" xml:space="preserve" y="0.0">Quiz Creation</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="27" bottomF="26.712045999998452" left="0" leftF="0.0" right="15" rightF="14.513618469238338" top="0" topF="0.0"/>
+            </y:GroupNode>
+            <y:GroupNode>
+              <y:Geometry height="38.49843200000009" width="124.08000000000004" x="-13.69599999999997" y="66.22733915624906"/>
+              <y:Fill color="#CAECFF80" transparent="false"/>
+              <y:BorderStyle color="#666699" type="dotted" width="1.0"/>
+              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="124.08000000000004" x="0.0" xml:space="preserve" y="0.0">Quiz Creation</y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+              <y:State closed="true" closedHeight="38.49843200000009" closedWidth="124.08000000000004" innerGraphDisplayEnabled="false"/>
+              <y:Insets bottom="5" bottomF="5.0" left="5" leftF="5.0" right="5" rightF="5.0" top="5" topF="5.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+            </y:GroupNode>
+          </y:Realizers>
+        </y:ProxyAutoBoundsNode>
+      </data>
+      <graph edgedefault="directed" id="n10:">
+        <node id="n10::n0">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="59.599999999999966" width="124.08000000000004" x="-35.066599906249905" y="20.625411999997567"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="90.05078125" x="17.01460937500002" xml:space="preserve" y="13.098828124999983">configure quiz
+select questions<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n10::n1">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="36.430268843749246" width="58.50005340576172" x="119.01340009375008" y="35.42541199999755"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="42.02734375" x="8.23635482788086" xml:space="preserve" y="8.864548484374637">quiz_id<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+        <node id="n10::n2">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="30.0" width="76.40000000000009" x="93.0209740312498" y="161.51336599999908"/>
+              <y:Fill color="#FFCC00" transparent="false"/>
+              <y:BorderStyle color="#000000" raised="false" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.69921875" x="6.8503906250000455" xml:space="preserve" y="5.6494140625">Begin Quiz<y:LabelModel><y:SmartNodeLabelModel distance="4.0"/></y:LabelModel><y:ModelParameter><y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/></y:ModelParameter></y:NodeLabel>
+              <y:Shape type="rectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
+      </graph>
+    </node>
+    <edge id="e0" source="n9::n0" target="n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="-9.313109669605463" tx="7.564416000000165" ty="25.0">
+            <y:Point x="393.667904" y="293.53375316519646"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.384765625" x="-79.69238652734373" xml:space="preserve" y="101.18123813874973">quiz_id is prefilled<y:LabelModel><y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/></y:LabelModel><y:ModelParameter><y:SmartEdgeLabelModelParameter angle="0.0" distance="30.0" distanceToCenter="true" position="right" ratio="0.5" segment="0"/></y:ModelParameter><y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/></y:EdgeLabel>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e1" source="n3" target="n4">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="80.33152956854838" sy="-44.77060500000027" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n4" target="n5">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n8" target="n10">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n5" target="n6">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e5" source="n1" target="n3">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e6" source="n9" target="n7">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e7" source="n7" target="n6">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e8" source="n2::n0" target="n8">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e9" source="n2::n1" target="n0::n0">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="5.6843418860808015E-14" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e10" source="n10::n2" target="n9">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e11" source="n0::n2" target="n1">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e12" source="n4" target="n6">
+      <data key="d9"/>
+      <data key="d10">
+        <y:ArcEdge>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="1403.818115234375" y="243.54803466796875"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dashed" width="1.0"/>
+          <y:Arrows source="none" target="standard"/>
+          <y:Arc height="131.0589599609375" ratio="1.0" type="fixedRatio"/>
+        </y:ArcEdge>
+      </data>
+    </edge>
+  </graph>
+  <data key="d7">
+    <y:Resources>
+      <y:Resource id="1" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="57px" height="67px" viewBox="0 0 57 67" enable-background="new 0 0 57 67" xml:space="preserve"&gt;
+&lt;g&gt;
+	
+		&lt;radialGradient id="neck_x5F_white_1_" cx="28.0298" cy="-751.9429" r="11.4464" fx="25.7969" fy="-753.1596" gradientTransform="matrix(1 0 0 -1 0.1201 -706.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B38E5D"/&gt;
+		&lt;stop  offset="1" style="stop-color:#805126"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="neck_x5F_white_2_" fill="url(#neck_x5F_white_1_)" stroke="#5B453B" stroke-miterlimit="10" d="M19.278,37.799h18.188
+		v13.23c-1.313,0.371-17.173,0.436-18.188,0.172V37.799z"/&gt;
+	
+		&lt;radialGradient id="SVGID_1_" cx="27.481" cy="-760.3003" r="31.0533" fx="21.4231" fy="-763.6011" gradientTransform="matrix(1 0 0 -1 0.1201 -706.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B38E5D"/&gt;
+		&lt;stop  offset="1" style="stop-color:#805126"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path fill="url(#SVGID_1_)" stroke="#5B453B" stroke-miterlimit="10" d="M49.529,51.225c-4.396-4.396-10.951-5.884-12.063-6.109
+		V37.8H19.278c0,0,0.038,6.903,0,6.868c0,0-6.874,0.997-12.308,6.432C1.378,56.691,0.5,62.77,0.5,62.77
+		c0,1.938,1.575,3.492,3.523,3.492h48.51c1.947,0,3.521-1.558,3.521-3.492C56.055,62.768,54.211,55.906,49.529,51.225z"/&gt;
+	
+		&lt;radialGradient id="face_x5F_white_1_" cx="27.7827" cy="-732.2632" r="23.424" fx="23.2131" fy="-734.753" gradientTransform="matrix(1 0 0 -1 0.1201 -706.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B38E5D"/&gt;
+		&lt;stop  offset="1" style="stop-color:#805126"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="face_x5F_white_2_" fill="url(#face_x5F_white_1_)" stroke="#5B453B" stroke-miterlimit="10" d="M43.676,23.357
+		c0.086,10.199-6.738,18.52-15.246,18.586c-8.503,0.068-15.467-8.146-15.553-18.344C12.794,13.4,19.618,5.079,28.123,5.012
+		C36.627,4.945,43.59,13.158,43.676,23.357z"/&gt;
+	
+		&lt;linearGradient id="face_highlight_1_" gradientUnits="userSpaceOnUse" x1="2941.4297" y1="5674.7988" x2="2965.0596" y2="5768.2505" gradientTransform="matrix(0.275 0 0 0.2733 -783.3976 -1542.678)"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.42"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.12"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="face_highlight_2_" fill="url(#face_highlight_1_)" d="M27.958,6.333c-6.035,0.047-10.747,4.493-12.787,10.386
+		c-0.664,1.919-0.294,4.043,0.98,5.629c2.73,3.398,5.729,6.283,9.461,8.088c3.137,1.518,7.535,2.385,11.893,1.247
+		c2.274-0.592,3.988-2.459,4.375-4.766c0.183-1.094,0.293-2.289,0.283-3.553C42.083,13.952,36.271,6.268,27.958,6.333z"/&gt;
+	&lt;path id="path9833_2_" fill="#4B4B4B" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" d="M28.372,0.5
+		C17.537,0.5,8.269,7.748,9.153,26.125c0.563,6.563,5.862,12.042,9.366,13.531c-2.929-10.968-0.304-25.021-0.585-25.526
+		c-0.281-0.505,3.536,6.728,3.536,6.728l3.183-8.312c5.541,4.28,0.393,11.309,1.049,11.058c4.26-1.631,5.34-9.228,5.34-9.228
+		s2.729,3.657,2.701,5.504c-0.054,3.562,2.194-6.067,2.194-6.067l1.027,2.031c6.727,9.822,3.684,16.208,1.654,22.781
+		c15.665-0.703,12.289-10.48,9.658-18.407C43.59,6.092,39.206,0.5,28.372,0.5z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_body_2_" cx="15.1587" cy="-763.7056" r="32.4004" gradientTransform="matrix(1 0 0 -1 0.1201 -706.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B0E8FF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_body_1_" fill="url(#collar_x5F_body_2_)" stroke="#5491CF" d="M0.5,62.768c0,1.938,1.575,3.494,3.523,3.494
+		h48.51c1.947,0,3.521-1.559,3.521-3.494c0,0-1.844-6.861-6.525-11.543c-4.815-4.813-11.244-6.146-11.244-6.146
+		c-1.771,1.655-5.61,2.802-10.063,2.802c-4.453,0-8.292-1.146-10.063-2.802c0,0-5.755,0.586-11.189,6.021
+		C1.378,56.689,0.5,62.768,0.5,62.768z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_r_2_" cx="31.5" cy="-753.832" r="9.2834" gradientTransform="matrix(1 0 0 -1 0.1201 -706.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_r_1_" fill="url(#collar_x5F_r_2_)" stroke="#5491CF" d="M38.159,41.381c0,0-0.574,2.369-3.013,4.441
+		c-2.108,1.795-5.783,2.072-5.783,2.072l3.974,6.217c0,0,2.957-1.637,5.009-3.848c1.922-2.072,1.37-5.479,1.37-5.479L38.159,41.381z
+		"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_l_2_" cx="19.1377" cy="-753.873" r="9.2837" gradientTransform="matrix(1 0 0 -1 0.1201 -706.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_l_1_" fill="url(#collar_x5F_l_2_)" stroke="#5491CF" d="M18.63,41.422c0,0,0.576,2.369,3.012,4.441
+		c2.109,1.793,5.785,2.072,5.785,2.072l-3.974,6.217c0,0-2.957-1.637-5.007-3.85c-1.922-2.072-1.37-5.48-1.37-5.48L18.63,41.422z"/&gt;
+	
+		&lt;radialGradient id="Knob2_2_" cx="27.8872" cy="9.9414" r="0.9669" gradientTransform="matrix(1 0 0 -1 0.04 66.1543)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;circle id="Knob2_1_" fill="url(#Knob2_2_)" stroke="#5491CF" cx="28.258" cy="56.254" r="0.584"/&gt;
+	
+		&lt;radialGradient id="Knob1_2_" cx="27.9253" cy="3.6973" r="0.9669" gradientTransform="matrix(1 0 0 -1 0.04 66.1543)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;circle id="Knob1_1_" fill="url(#Knob1_2_)" stroke="#5491CF" cx="28.296" cy="62.499" r="0.584"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+      <y:Resource id="2" xml:space="preserve">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="59px" height="59px" viewBox="0 0 59 59" enable-background="new 0 0 59 59" xml:space="preserve"&gt;
+&lt;g&gt;
+	
+		&lt;linearGradient id="neck_x5F_white_1_" gradientUnits="userSpaceOnUse" x1="13.6323" y1="-1502.7422" x2="14.3617" y2="-1520.2559" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)"&gt;
+		&lt;stop  offset="0.2711" style="stop-color:#FFAB4F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFD28F"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="neck_x5F_white_19_" fill="url(#neck_x5F_white_1_)" stroke="#FFAB4F" stroke-width="0.5" stroke-miterlimit="10" d="
+		M9.639,18.899h9.093v10.115c-0.656,0.186-8.586,0.218-9.093,0.086V18.899z"/&gt;
+	
+		&lt;linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="13.1294" y1="-1499.207" x2="13.75" y2="-1514.1072" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)"&gt;
+		&lt;stop  offset="0.2711" style="stop-color:#FFAB4F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFD28F"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path fill="url(#SVGID_1_)" stroke="#ED9135" stroke-width="0.5" stroke-miterlimit="10" d="M24.766,25.612
+		c-2.199-2.197-5.477-2.941-6.033-3.055v-3.658H9.639c0,0,0.019,3.452,0,3.435c0,0-3.437,0.499-6.154,3.216
+		c-2.796,2.796-3.235,5.835-3.235,5.835c0,0.971,0.788,1.746,1.762,1.746h24.255c0.974,0,1.761-0.777,1.761-1.746
+		C28.027,31.384,27.105,27.953,24.766,25.612z"/&gt;
+	
+		&lt;radialGradient id="face_x5F_white_1_" cx="13.7515" cy="-1500.0908" r="11.7123" fx="11.4666" fy="-1501.3357" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFD28F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFAB4F"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="face_x5F_white_19_" fill="url(#face_x5F_white_1_)" stroke="#ED9135" stroke-width="0.5" stroke-miterlimit="10" d="
+		M21.838,11.679c0.043,5.1-3.369,9.26-7.623,9.293C9.964,21.006,6.483,16.899,6.44,11.8c-0.042-5.1,3.37-9.261,7.622-9.294
+		C18.314,2.473,21.795,6.579,21.838,11.679z"/&gt;
+	
+		&lt;linearGradient id="face_highlight_1_" gradientUnits="userSpaceOnUse" x1="4300.0391" y1="8522.0703" x2="4311.8545" y2="8568.7988" gradientTransform="matrix(0.275 0 0 0.2733 -1169.7629 -2324.9595)"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.24"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.16"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="face_highlight_19_" fill="url(#face_highlight_1_)" d="M13.979,3.166c-3.018,0.023-5.374,2.247-6.394,5.193
+		c-0.332,0.96-0.147,2.021,0.49,2.814c1.365,1.699,2.865,3.142,4.73,4.044c1.569,0.759,3.767,1.192,5.946,0.624
+		c1.139-0.297,1.994-1.229,2.188-2.383c0.092-0.548,0.146-1.145,0.143-1.777C21.041,6.977,18.137,3.134,13.979,3.166z"/&gt;
+	
+		&lt;path id="Hair_Female_1_Black_9_" fill="#4B4B4B" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="
+		M14.187,0.25c-5.418,0-10.052,3.624-9.61,12.813c0.282,3.281,2.931,6.021,4.683,6.766C7.795,14.344,9.107,7.317,8.967,7.064
+		c-0.14-0.252,1.769,3.364,1.769,3.364l1.591-4.155c2.771,2.14,0.197,5.654,0.524,5.528c2.129-0.815,2.67-4.614,2.67-4.614
+		s1.364,1.829,1.35,2.752c-0.025,1.781,1.098-3.033,1.098-3.033l0.514,1.016c3.363,4.911,1.842,8.104,0.826,11.391
+		c7.834-0.352,6.146-5.24,4.83-9.203C21.795,3.046,19.604,0.25,14.187,0.25z"/&gt;
+	
+		&lt;linearGradient id="body_1_" gradientUnits="userSpaceOnUse" x1="53.4854" y1="2393.7295" x2="21.2897" y2="2393.7295" gradientTransform="matrix(0.9852 0 0 0.9852 -22.6981 -2330.2188)"&gt;
+		&lt;stop  offset="0" style="stop-color:#49AD33"/&gt;
+		&lt;stop  offset="1" style="stop-color:#C2DA92"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="body_63_" fill="url(#body_1_)" stroke="#008D33" stroke-width="0.5" d="M0.25,31.384c0,0.97,0.788,1.747,1.762,1.747
+		h24.255c0.974,0,1.761-0.779,1.761-1.747c0,0-0.922-3.431-3.262-5.771c-2.408-2.406-4.123-2.572-4.123-2.572
+		c-0.723,3.491-4.277,4.393-6.503,4.393c-2.227,0-5.75-0.994-6.06-4.393c0,0-1.877-0.207-4.594,2.51
+		C0.689,28.345,0.25,31.384,0.25,31.384z"/&gt;
+	
+		&lt;linearGradient id="neck_x5F_white_3_" gradientUnits="userSpaceOnUse" x1="43.8525" y1="-1502.7417" x2="44.5819" y2="-1520.2552" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)"&gt;
+		&lt;stop  offset="0.2711" style="stop-color:#FFAB4F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFD28F"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="neck_x5F_white_17_" fill="url(#neck_x5F_white_3_)" stroke="#FFAB4F" stroke-width="0.5" stroke-miterlimit="10" d="
+		M39.859,18.899h9.094v10.115c-0.656,0.186-8.586,0.218-9.094,0.086V18.899z"/&gt;
+	
+		&lt;linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="43.3506" y1="-1499.2075" x2="43.9712" y2="-1514.1077" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)"&gt;
+		&lt;stop  offset="0.2711" style="stop-color:#FFAB4F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFD28F"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path fill="url(#SVGID_2_)" stroke="#ED9135" stroke-width="0.5" stroke-miterlimit="10" d="M54.986,25.612
+		c-2.199-2.197-5.478-2.941-6.033-3.055v-3.658h-9.094c0,0,0.02,3.452,0,3.435c0,0-3.438,0.499-6.153,3.216
+		c-2.796,2.796-3.235,5.835-3.235,5.835c0,0.971,0.787,1.746,1.762,1.746h24.256c0.974,0,1.761-0.777,1.761-1.746
+		C58.248,31.384,57.326,27.953,54.986,25.612z"/&gt;
+	
+		&lt;radialGradient id="face_x5F_white_3_" cx="43.9727" cy="-1500.0908" r="11.7111" fx="41.6881" fy="-1501.3356" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFD28F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFAB4F"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="face_x5F_white_17_" fill="url(#face_x5F_white_3_)" stroke="#ED9135" stroke-width="0.5" stroke-miterlimit="10" d="
+		M52.059,11.679c0.043,5.1-3.369,9.26-7.623,9.293c-4.25,0.034-7.731-4.073-7.774-9.172c-0.042-5.1,3.368-9.261,7.622-9.294
+		C48.536,2.473,52.016,6.579,52.059,11.679z"/&gt;
+	
+		&lt;linearGradient id="face_highlight_3_" gradientUnits="userSpaceOnUse" x1="4409.9326" y1="8522.0703" x2="4421.7476" y2="8568.7969" gradientTransform="matrix(0.275 0 0 0.2733 -1169.7629 -2324.9595)"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.24"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.16"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="face_highlight_17_" fill="url(#face_highlight_3_)" d="M44.2,3.166c-3.019,0.023-5.374,2.247-6.394,5.193
+		c-0.332,0.96-0.147,2.021,0.489,2.814c1.364,1.699,2.864,3.142,4.729,4.044c1.568,0.759,3.768,1.192,5.945,0.624
+		c1.139-0.297,1.994-1.229,2.188-2.383c0.092-0.548,0.146-1.145,0.143-1.777C51.262,6.977,48.357,3.134,44.2,3.166z"/&gt;
+	
+		&lt;path id="hair_x5F_gray_17_" fill="#ECECEC" stroke="#9B9B9B" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="
+		M40.359,6.625c0,0,2.66,3.625,7.5,1.875c1.365-0.281,4.529,0.518,4.529,0.518s-1.828-8.085-8.523-7.646
+		c-8.943,0.69-7.615,11.467-7.615,11.467s1.384-0.342,2.518-2.401C39.255,9.553,40.359,6.625,40.359,6.625z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_body_2_" cx="37.6602" cy="-1515.813" r="16.2003" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B0E8FF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_body_8_" fill="url(#collar_x5F_body_2_)" stroke="#5491CF" stroke-width="0.5" d="M30.471,31.384
+		c0,0.97,0.787,1.747,1.762,1.747h24.256c0.974,0,1.761-0.779,1.761-1.747c0,0-0.922-3.431-3.263-5.771
+		c-2.407-2.406-5.623-3.072-5.623-3.072c-0.885,0.827-2.805,1.4-5.03,1.4s-4.146-0.573-5.031-1.4c0,0-2.878,0.293-5.595,3.01
+		C30.91,28.345,30.471,31.384,30.471,31.384z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_r_2_" cx="45.8311" cy="-1510.8745" r="4.6401" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_r_8_" fill="url(#collar_x5F_r_2_)" stroke="#5491CF" stroke-width="0.5" d="M49.301,20.69
+		c0,0-0.287,1.185-1.506,2.221c-1.055,0.897-2.893,1.036-2.893,1.036l1.986,3.108c0,0,1.479-0.818,2.504-1.924
+		c0.961-1.036,0.686-2.74,0.686-2.74L49.301,20.69z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_l_2_" cx="39.6494" cy="-1510.896" r="4.6426" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_l_8_" fill="url(#collar_x5F_l_2_)" stroke="#5491CF" stroke-width="0.5" d="M39.536,20.711
+		c0,0,0.288,1.185,1.506,2.221c1.056,0.896,2.894,1.036,2.894,1.036l-1.987,3.108c0,0-1.479-0.818-2.505-1.925
+		c-0.961-1.036-0.685-2.74-0.685-2.74L39.536,20.711z"/&gt;
+	
+		&lt;radialGradient id="Knob2_2_" cx="44.0645" cy="-742.6421" r="0.4846" gradientTransform="matrix(1 0 0 -1 0.1201 -714.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;circle id="Knob2_8_" fill="url(#Knob2_2_)" stroke="#5491CF" stroke-width="0.5" cx="44.35" cy="28.127" r="0.292"/&gt;
+	
+		&lt;radialGradient id="Knob1_2_" cx="44.083" cy="-745.7642" r="0.4847" gradientTransform="matrix(1 0 0 -1 0.1201 -714.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;circle id="Knob1_8_" fill="url(#Knob1_2_)" stroke="#5491CF" stroke-width="0.5" cx="44.369" cy="31.25" r="0.292"/&gt;
+	
+		&lt;radialGradient id="jacket_x5F_body_1_" cx="36.7842" cy="-1515.3755" r="20.459" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#D0D0D0"/&gt;
+		&lt;stop  offset="1" style="stop-color:#9B9B9B"/&gt;
+	&lt;/radialGradient&gt;
+	
+		&lt;path id="jacket_x5F_body_8_" fill="url(#jacket_x5F_body_1_)" stroke="#4B4B4B" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="
+		M54.986,25.612c-2.217-2.217-5.111-2.955-5.557-3.059l-2.695,10.572h-4.43L39.686,22.84c-0.145-0.096-0.271-0.196-0.385-0.301
+		c0,0-2.877,0.293-5.595,3.01c-2.796,2.796-3.233,5.835-3.233,5.835c0,0.97,0.786,1.747,1.76,1.747h24.256
+		c0.975,0,1.761-0.779,1.761-1.747C58.248,31.384,57.326,27.953,54.986,25.612z"/&gt;
+	
+		&lt;polygon id="jacket_x5F_r_8_" fill="#9B9B9B" stroke="#4B4B4B" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+		49.688,21.038 51.305,23.187 50.615,27.835 48.914,28.25 49.547,29.563 47.509,33.126 46.734,33.126 	"/&gt;
+	
+		&lt;polygon id="jacket_x5F_l_8_" fill="#B2B2B2" stroke="#4B4B4B" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" points="
+		39.354,21.038 37.734,23.187 38.426,27.835 40.127,28.25 39.493,29.563 41.531,33.126 42.307,33.126 	"/&gt;
+	&lt;path id="path5135_8_" fill="#D54A30" stroke="#B51A19" stroke-width="0.5" d="M43.936,27.61c0,0-0.926,1.028-1.041,3.271
+		c-0.115,2.244,0,2.244,0,2.244h3.273c0,0,0.115,0.031-0.077-2.182c-0.2-2.302-1.194-3.334-1.194-3.334L43.936,27.61L43.936,27.61z"
+		/&gt;
+	&lt;path id="path5131_8_" fill="#D54A30" stroke="#B51A19" stroke-width="0.5" d="M44.377,24.34h0.063l1.275,2.001
+		c0.258,0.477-0.604,0.898-0.729,1.274l-1.139-0.008c-0.121-0.38-1.129-0.683-0.738-1.292L44.377,24.34z"/&gt;
+	
+		&lt;linearGradient id="neck_x5F_white_4_" gradientUnits="userSpaceOnUse" x1="43.6328" y1="-1527.7417" x2="44.3621" y2="-1545.2545" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)"&gt;
+		&lt;stop  offset="0.2711" style="stop-color:#FFAB4F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFD28F"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="neck_x5F_white_11_" fill="url(#neck_x5F_white_4_)" stroke="#FFAB4F" stroke-width="0.5" stroke-miterlimit="10" d="
+		M39.639,43.898h9.094v10.115c-0.655,0.187-8.586,0.219-9.094,0.086V43.898z"/&gt;
+	
+		&lt;linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="43.1309" y1="-1524.2065" x2="43.7515" y2="-1539.1072" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)"&gt;
+		&lt;stop  offset="0.2711" style="stop-color:#FFAB4F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFD28F"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path fill="url(#SVGID_3_)" stroke="#ED9135" stroke-width="0.5" stroke-miterlimit="10" d="M54.766,50.611
+		c-2.199-2.196-5.477-2.94-6.033-3.055v-3.658h-9.094c0,0,0.021,3.453,0,3.436c0,0-3.437,0.499-6.152,3.216
+		c-2.797,2.796-3.235,5.835-3.235,5.835c0,0.971,0.787,1.746,1.763,1.746h24.254c0.975,0,1.762-0.777,1.762-1.746
+		C58.027,56.384,57.105,52.953,54.766,50.611z"/&gt;
+	
+		&lt;radialGradient id="face_x5F_white_4_" cx="43.752" cy="-1525.0908" r="11.7114" fx="41.4673" fy="-1526.3356" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFD28F"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFAB4F"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="face_x5F_white_11_" fill="url(#face_x5F_white_4_)" stroke="#ED9135" stroke-width="0.5" stroke-miterlimit="10" d="
+		M51.838,36.68c0.043,5.1-3.369,9.26-7.623,9.293c-4.251,0.033-7.732-4.074-7.775-9.173c-0.041-5.1,3.369-9.261,7.623-9.294
+		C48.314,27.473,51.795,31.579,51.838,36.68z"/&gt;
+	
+		&lt;linearGradient id="face_highlight_4_" gradientUnits="userSpaceOnUse" x1="4409.1299" y1="8613.5469" x2="4420.9448" y2="8660.2725" gradientTransform="matrix(0.275 0 0 0.2733 -1169.7629 -2324.9595)"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.24"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.16"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="face_highlight_11_" fill="url(#face_highlight_4_)" d="M43.979,28.166c-3.018,0.023-5.373,2.247-6.394,5.193
+		c-0.332,0.959-0.147,2.021,0.49,2.813c1.364,1.699,2.864,3.142,4.729,4.044c1.568,0.76,3.768,1.192,5.945,0.624
+		c1.139-0.297,1.994-1.229,2.188-2.383c0.092-0.548,0.146-1.146,0.144-1.776C51.041,31.977,48.137,28.134,43.979,28.166z"/&gt;
+	&lt;path fill="#CC9869" stroke="#99724F" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="M46.107,29.969
+		c0,0,2.845,1.375,3.845,4.062c1.052,2.826,2.062,4.117,2.095,4c0.938-3.395,0.531-10.718-5.086-10.792
+		c-10.229-3.832-12.79,5.98-11.947,9.824c0.539,2.457,1.117,3.344,1.971,4.041C36.982,41.104,37.514,33.781,46.107,29.969z"/&gt;
+	
+		&lt;linearGradient id="body_2_" gradientUnits="userSpaceOnUse" x1="83.9365" y1="2419.1064" x2="51.7404" y2="2419.1064" gradientTransform="matrix(0.9852 0 0 0.9852 -22.6981 -2330.2188)"&gt;
+		&lt;stop  offset="0" style="stop-color:#49AD33"/&gt;
+		&lt;stop  offset="1" style="stop-color:#C2DA92"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="body_35_" fill="url(#body_2_)" stroke="#008D33" stroke-width="0.5" d="M30.25,56.384c0,0.97,0.787,1.747,1.762,1.747
+		h24.256c0.974,0,1.76-0.779,1.76-1.747c0,0-0.922-3.431-3.262-5.771c-2.408-2.406-4.123-2.572-4.123-2.572
+		c-0.723,3.49-4.276,4.393-6.504,4.393c-2.227,0-5.75-0.994-6.059-4.393c0,0-1.878-0.207-4.596,2.51
+		C30.689,53.346,30.25,56.384,30.25,56.384z"/&gt;
+	
+		&lt;radialGradient id="neck_x5F_white_5_" cx="14.0952" cy="-1534.9302" r="5.7236" fx="12.9786" fy="-1535.5386" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B38E5D"/&gt;
+		&lt;stop  offset="1" style="stop-color:#805126"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="neck_x5F_white_2_" fill="url(#neck_x5F_white_5_)" stroke="#5B453B" stroke-width="0.5" stroke-miterlimit="10" d="
+		M9.859,43.898h9.094v6.615c-0.656,0.187-8.586,0.219-9.094,0.086V43.898z"/&gt;
+	
+		&lt;radialGradient id="SVGID_4_" cx="13.8213" cy="-1539.1084" r="15.5272" fx="10.7923" fy="-1540.7589" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B38E5D"/&gt;
+		&lt;stop  offset="1" style="stop-color:#805126"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path fill="url(#SVGID_4_)" stroke="#5B453B" stroke-width="0.5" stroke-miterlimit="10" d="M24.986,50.611
+		c-2.199-2.196-5.477-2.94-6.033-3.055v-3.658H9.859c0,0,0.02,3.453,0,3.436c0,0-3.437,0.499-6.153,3.216
+		c-2.796,2.796-3.235,5.835-3.235,5.835c0,0.971,0.787,1.746,1.762,1.746h24.255c0.974,0,1.761-0.777,1.761-1.746
+		C28.248,56.384,27.326,52.953,24.986,50.611z"/&gt;
+	
+		&lt;radialGradient id="face_x5F_white_5_" cx="13.9722" cy="-1525.0908" r="11.7123" fx="11.6873" fy="-1526.3357" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B38E5D"/&gt;
+		&lt;stop  offset="1" style="stop-color:#805126"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="face_x5F_white_2_" fill="url(#face_x5F_white_5_)" stroke="#5B453B" stroke-width="0.5" stroke-miterlimit="10" d="
+		M22.059,36.68c0.043,5.1-3.369,9.26-7.623,9.293c-4.251,0.033-7.732-4.074-7.775-9.173c-0.042-5.1,3.369-9.261,7.622-9.294
+		C18.536,27.473,22.016,31.579,22.059,36.68z"/&gt;
+	
+		&lt;linearGradient id="face_highlight_5_" gradientUnits="userSpaceOnUse" x1="4300.8428" y1="8613.5449" x2="4312.6582" y2="8660.2734" gradientTransform="matrix(0.275 0 0 0.2733 -1169.7629 -2324.9595)"&gt;
+		&lt;stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.42"/&gt;
+		&lt;stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0.12"/&gt;
+	&lt;/linearGradient&gt;
+	&lt;path id="face_highlight_2_" fill="url(#face_highlight_5_)" d="M14.2,28.166c-3.018,0.023-5.374,2.247-6.394,5.193
+		c-0.332,0.959-0.147,2.021,0.49,2.813c1.364,1.699,2.864,3.142,4.73,4.044c1.568,0.76,3.767,1.192,5.945,0.624
+		c1.139-0.297,1.994-1.229,2.188-2.383c0.092-0.548,0.146-1.146,0.143-1.776C21.262,31.977,18.357,28.134,14.2,28.166z"/&gt;
+	
+		&lt;path id="Hair_Young_Black_1_" fill="#4B4B4B" stroke="#000000" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" d="
+		M10.359,31.625c1.709,2.166,4.667,3.459,4.667,3.459l-0.708-1.75c0,0,3.547,2.346,4.041,2.166c0.484-0.1-0.541-1.902-0.541-1.902
+		s1.568,0.896,2.428,1.983c0.9,1.14,2.143,1.752,2.143,1.752s1.346-10.974-8.523-10.961C4.359,26.354,6.25,38.839,6.25,38.839
+		L7.568,33.5c0,0,0.457,2.879,0.699,2.438C9.151,32.605,9.651,30.75,10.359,31.625z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_body_3_" cx="7.6602" cy="-1540.813" r="16.2003" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#B0E8FF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_body_1_" fill="url(#collar_x5F_body_3_)" stroke="#5491CF" stroke-width="0.5" d="M0.471,56.384
+		c0,0.97,0.787,1.747,1.762,1.747h24.255c0.974,0,1.761-0.779,1.761-1.747c0,0-0.922-3.431-3.262-5.771
+		c-2.408-2.406-5.623-3.072-5.623-3.072c-0.885,0.827-2.805,1.4-5.031,1.4s-4.146-0.573-5.031-1.4c0,0-2.878,0.293-5.595,3.01
+		C0.91,53.346,0.471,56.384,0.471,56.384z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_r_3_" cx="15.8306" cy="-1535.874" r="4.6412" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_r_1_" fill="url(#collar_x5F_r_3_)" stroke="#5491CF" stroke-width="0.5" d="M19.301,45.689
+		c0,0-0.287,1.186-1.506,2.222c-1.055,0.897-2.893,1.036-2.893,1.036l1.986,3.107c0,0,1.479-0.818,2.504-1.924
+		c0.961-1.035,0.686-2.74,0.686-2.74L19.301,45.689z"/&gt;
+	
+		&lt;radialGradient id="collar_x5F_l_3_" cx="9.6494" cy="-1535.896" r="4.6422" gradientTransform="matrix(1 0 0 -1 0.2002 -1487.2285)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;path id="collar_x5F_l_1_" fill="url(#collar_x5F_l_3_)" stroke="#5491CF" stroke-width="0.5" d="M9.536,45.711
+		c0,0,0.288,1.186,1.506,2.221c1.055,0.896,2.893,1.037,2.893,1.037l-1.987,3.107c0,0-1.479-0.818-2.504-1.926
+		c-0.961-1.035-0.685-2.739-0.685-2.739L9.536,45.711z"/&gt;
+	
+		&lt;radialGradient id="Knob2_3_" cx="14.0645" cy="-767.6421" r="0.4842" gradientTransform="matrix(1 0 0 -1 0.1201 -714.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;circle id="Knob2_1_" fill="url(#Knob2_3_)" stroke="#5491CF" stroke-width="0.5" cx="14.35" cy="53.127" r="0.292"/&gt;
+	
+		&lt;radialGradient id="Knob1_3_" cx="14.0835" cy="-770.7642" r="0.4844" gradientTransform="matrix(1 0 0 -1 0.1201 -714.5371)" gradientUnits="userSpaceOnUse"&gt;
+		&lt;stop  offset="0" style="stop-color:#80CCFF"/&gt;
+		&lt;stop  offset="1" style="stop-color:#74AEEE"/&gt;
+	&lt;/radialGradient&gt;
+	&lt;circle id="Knob1_1_" fill="url(#Knob1_3_)" stroke="#5491CF" stroke-width="0.5" cx="14.369" cy="56.25" r="0.292"/&gt;
+	&lt;path id="path5135_1_" fill="#D54A30" stroke="#B51A19" stroke-width="0.5" d="M13.935,52.609c0,0-0.925,1.029-1.04,3.271
+		c-0.115,2.244,0,2.244,0,2.244h3.273c0,0,0.115,0.031-0.077-2.182c-0.2-2.303-1.194-3.334-1.194-3.334H13.935L13.935,52.609z"/&gt;
+	&lt;path id="path5131_1_" fill="#D54A30" stroke="#B51A19" stroke-width="0.5" d="M14.377,49.34h0.062l1.276,2.001
+		c0.258,0.478-0.604,0.897-0.728,1.274l-1.14-0.008c-0.121-0.381-1.128-0.684-0.738-1.293L14.377,49.34z"/&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+</y:Resource>
+    </y:Resources>
+  </data>
+</graphml>

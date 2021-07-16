@@ -16,6 +16,7 @@ Flask = "^2.0.1"
 Flask-WTF = "^0.15.1"
 WTForms = "^2.3.3"
 Flask-SQLAlchemy = "^2.5.1"
+qrcode = "^7.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"

@@ -1,14 +1,27 @@
-from quiz_app.questions.question_types.utils.question import Question
 import random
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from matplotlib.figure import Figure
+import numpy as np
 
+from quiz_app.questions.question_types.utils.question import Question
+
+
+import gettext
+try:
+    _("")
+except:
+    _ = gettext.gettext
+
+print(_("hu"))
 
 class Multiplication(Question):
-    def __init__(self, seed=0, language='en', lower_bound=0, upper_bound=10):
-        super().__init__(seed=seed, language=language)
+    tags = ('multiplication')
+    def __init__(self, seed=0, lower_bound=0, upper_bound=10):
+        super().__init__(seed=seed)
         self.upper_bound = upper_bound
         self.lower_bound = lower_bound
 
-    def render(self):
+    def generate(self):
         a = random.randint(self.lower_bound, self.upper_bound + 1)
         b = random.randint(self.lower_bound, self.upper_bound + 1)
 
@@ -24,16 +37,19 @@ class Multiplication(Question):
             if x * y != correct_answer and x * y not in wrong_answers:
                 wrong_answers.append(x * y)
 
-        return question, correct_answer, wrong_answers
+        response = {'question': question, 'correct_answer': correct_answer, 'wrong_answers': wrong_answers}
+        return response
 
 
 class QuadraticEqNumberOfRoots(Question):
-    def __init__(self, seed=0, language='en', lower_bound=-10, upper_bound=10):
-        super().__init__(seed=seed, language=language)
+    tags = ('quadratic', 'roots')
+    def __init__(self, seed=0, lower_bound=-10, upper_bound=10):
+        super().__init__(seed=seed)
         self.upper_bound = upper_bound
         self.lower_bound = lower_bound
 
-    def render(self):
+
+    def generate(self):
         # with a 1/3 chance pick an equation that has only 1 root
         if random.random() < 1/3:
             root = self.randint(-3, 3+1)
@@ -61,7 +77,48 @@ class QuadraticEqNumberOfRoots(Question):
         wrong_answers = [0, 1, 2, 3]
         wrong_answers.remove(correct_answer)
 
-        return question, correct_answer, wrong_answers
+        response = {'question': question, 'correct_answer': correct_answer, 'wrong_answers': wrong_answers}
+        return response
+
+class LinearEquationsPlot(Question):
+    tags = ('linear', 'plot')
+
+    def __init__(self, seed=0, language='en', lower_bound=-10, upper_bound=10):
+        super().__init__(seed=seed)
+        self.upper_bound = upper_bound
+        self.lower_bound = lower_bound
+
+
+
+    def generate(self):
+
+        question = _(f'What function is plotted here?')
+
+        parameters = []
+        while len(parameters) < 4:
+            params = tuple(np.random.randint(-10, 10, size=2))
+            if params not in parameters:
+                parameters.append(params)
+
+
+        random.shuffle(parameters)
+
+
+        correct_answer = f'$${parameters[0][0]}x {"+ " if parameters[0][1]>=0 else ""}{parameters[0][1]}$$'
+
+        wrong_answers = [f'$${parameters[ii][0]}x {"+ " if parameters[ii][1]>=0 else ""}{parameters[ii][1]}$$' for ii in range(1,4)]
+
+        fig = Figure()
+        axis = fig.add_subplot(1, 1, 1)
+        x = np.linspace(-1, 1)
+        y = parameters[0][0] * x + parameters[0][1]
+        axis.plot(x, y)
+        axis.grid()
+
+
+        response = {'question': question, 'correct_answer': correct_answer, 'wrong_answers': wrong_answers, 'figure': fig}
+        return response
+
 
 
 def Playground():
@@ -100,11 +157,11 @@ def Playground():
 
 
 if __name__ == '__main__':
-    q = Multiplication(1)
+    q = LinearEquationsPlot(1)
     print(q.render())
 
-    q = QuadraticEqNumberOfRoots()
-    print(q.render())
+    # q = QuadraticEqNumberOfRoots()
+    # print(q.generate())
 
-    Playground()
+    # Playground()
 
