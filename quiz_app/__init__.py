@@ -16,10 +16,10 @@ def create_app(config_class=Config):
 
     from quiz_app.main.routes import main
     from quiz_app.questions.routes import questions
-    from quiz_app.teacher.routes import teacher
+    from quiz_app.quiz.routes import quiz
     from quiz_app.student.routes import student
     app.register_blueprint(main)
     app.register_blueprint(questions)
-    app.register_blueprint(teacher)
+    app.register_blueprint(quiz)
     app.register_blueprint(student)
     return app

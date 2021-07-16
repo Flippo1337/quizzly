@@ -7,14 +7,11 @@
     <div class="container" align="center">
     <div method="POST">
         {{ form.hidden_tag() }}
-        <div class="row" align="center"">
-            <div class="column" align="center">
-                {{ form.existing(class_="other-button-custom")}}
-            </div>
-            <div class="column" align="center">
-                {{ form.create(class_="other-button-custom")}}
-            </div>
-        </div>
+        {{ form.topic.label}}
+        {{ form.topic()}}
+        {{ form.submit(class_="other-button-custom") }}
     </div>
+    </div>
+
     </div>
 {% endblock %}
