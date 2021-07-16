@@ -5,12 +5,12 @@
     <h2 style="margin: 2px" align="center">Please select a Quiz option below</h2>
     <br/>
     <div class="container" align="center">
-    <div method="POST">
+    <form method="POST">
         {{ form.hidden_tag() }}
         {{ form.topic.label}}
         {{ form.topic()}}
-        {{ form.submit(class_="other-button-custom") }}
-    </div>
+        {{ form.submit() }}
+    </form>
     </div>
 
     </div>
