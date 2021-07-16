@@ -1,0 +1,14 @@
+{%  extends "base.html" %}
+
+{% block content%}
+    <img class="center" style="margin-bottom: 10px" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="75">
+    <h5 align="center">Please complete the quiz by choosing one of the following multiple choice answers for each question</h5>
+    <br>
+    <h2 align="center">{{question}}</h2>
+    <br/>
+    <div class="btn-group-vertical" style="display: flex; align-items: center">
+        {% for answer in answers %}
+            <button class="quiz-button-custom">{{answer}}</button>
+        {% endfor %}
+    </div>
+{% endblock %}
