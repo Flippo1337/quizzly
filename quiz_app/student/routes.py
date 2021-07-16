@@ -43,3 +43,12 @@ def question():
                            question=question_data['question_string'],
                            answers=question_data['all_answers'],
                            title='Addition Quiz')
+
+
+@student.route('/quiz_results')
+def quiz_results():
+    # temp to show example - would need dynamic update
+    question_data = generate_two_number_addition_or_subtraction_question('addition')
+    return render_template('quiz_results.html',
+                           question=question_data['question_string'],
+                           correct_answer=question_data['correct_answer'])
