@@ -31,7 +31,7 @@ body {
   margin-right: auto;
 }
 
-.other-button-custom {
+.home-button-custom {
     background-color: #242edd;
     color: #f7f6f8;
     padding: 10px;
@@ -40,8 +40,6 @@ body {
     font-size: 15px;
     border-radius: 10px;
     cursor: pointer;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     margin:10px;
     text-align: center;
     }
@@ -60,3 +58,33 @@ body {
     text-align: center;
     padding-bottom: 1px;
     }
+
+.other-button-custom {
+    background-color: #242edd;
+    color: #f7f6f8;
+    padding: 5px;
+    height: 60px;
+    width: 160px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:10px;
+    text-align: center;
+    }
+
+.loader {
+  border: 16px solid #43ccde; /* Light grey */
+  border-top: 16px solid #0a5ede; /* Blue */
+  border-radius: 50%;
+  width: 95px;
+  height: 95px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

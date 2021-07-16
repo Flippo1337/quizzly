@@ -14,8 +14,3 @@ def index():
 @main.route("/about")
 def about():
     return render_template('about.html', title='About')
-
-
-@main.route('/teacher-login')
-def teacher_login():
-    return render_template('teacherlogin.html')

@@ -1,18 +1,24 @@
 {% extends "base.html" %}
 {% block content %}
     <br/>
-    <h6    align="center" class="site-header"> Welcome to </h6>
-    <h1 align="center" class="site-header"> Quizzly </h1>
-    <br>
-
-    <div align="center">
-    <form method="POST">
-    {{ form.hidden_tag() }}
-    {{ form.name.label}}{{form.name()}}
-    {{ form.quiz_id.label}}{{form.quiz_id()}}
-    {{ form.submit() }}
-    </form>
+    <img alt="Quizzly logo" class="center" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="80">
+    <h2 style="margin: 2px" align="center">Please enter the Quiz ID and your username below</h2>
+    <div class="container" align="center">
+    <div method="POST">
+        {{ form.hidden_tag() }}
+        <div class="row" align="center" style="width: 40%">
+        {{ form.name.label}}
+        {{ form.name()}}
+        </div>
+        <div class="row" align="center" style="width: 40%">
+        {{ form.quiz_id.label}}
+        {{ form.quiz_id()}}
+        </div>
+        <nav>
+            <a href="{{ url_for('student.student_quiz_lobby') }}">
+                {{ form.submit(class_="other-button-custom") }}
+            </a>
+        </nav>
     </div>
-
-
+    </div>
 {% endblock %}
