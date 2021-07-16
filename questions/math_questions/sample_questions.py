@@ -111,8 +111,10 @@ class PolinomialPlot(Question):
 
 
         correct_answer = f'$${parameters[0][0]}x {"+ " if parameters[0][1]>=0 else ""}{parameters[0][1]}$$'
-
         wrong_answers = [f'$${parameters[ii][0]}x {"+ " if parameters[ii][1]>=0 else ""}{parameters[ii][1]}$$' for ii in range(1,4)]
+
+        all_answers = wrong_answers + [correct_answer]
+        correct_answer_index = 3
 
         fig = Figure()
         axis = fig.add_subplot(1, 1, 1)
@@ -122,7 +124,7 @@ class PolinomialPlot(Question):
         axis.grid()
 
 
-        response = {'question': question, 'correct_answer': correct_answer, 'wrong_answers': wrong_answers, 'figure': fig}
+        response = {'question_string': question, 'all_answers': all_answers, 'correct_answer_index': correct_answer_index, 'figure': fig}
         return response
 
 

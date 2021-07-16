@@ -23,11 +23,11 @@ class QuestionRegistry:
             raise ValueError('no question class found that match the filter')
 
         questions = []
-        seeds = [random.random() for _ in range(n)]
+        seeds = [random.randint(0, 2**32-1) for _ in range(n)]
         for ii, seed in enumerate(seeds):
             question_class = random.choice(filtered_questions)
             q = question_class(seed=seed)
-            questions.append(q.generate())
+            questions.append(q.render())
 
         return questions
 
@@ -35,5 +35,5 @@ class QuestionRegistry:
 
 if __name__ == '__main__':
     registry = QuestionRegistry()
-    questions = QuestionRegistry.generate_questions(10)
+    questions = registry.generate_questions(10)
     print(questions)
