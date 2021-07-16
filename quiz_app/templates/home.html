@@ -1,13 +1,6 @@
-<html>
-    <head>
-        <title>{{ title }}</title>
-    </head>
-    <body>
-        <p>
-            hello
-        </p>
-        <p>
-            <a href="{{ url_for('questions.question') }}">Check out this cool quiz!</a><
-        </p>
-    </body>
-</html>
+{%  extends "base.html" %}
+
+{% block content %}
+    <p> hello </p>
+    <p> <a href="{{ url_for('questions.question') }}">Check out this cool quiz!</a>< </p>
+{% endblock %}

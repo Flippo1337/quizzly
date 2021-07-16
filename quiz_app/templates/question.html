@@ -1,13 +1,12 @@
-<html>
-    <head>
-        <title>{{ title }}</title>
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-        <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-        </script>
-    </head>
-    <body>
-        {% if username == "Rosalia": %}
+{%  extends "base.html" %}
+
+{% block scripts %}
+     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
+{% endblock %}
+
+{% block content %}
+{% if username == "Rosalia": %}
         <h1>Hello my love</h1>
 	{% else %}
         <h1>Hello {{ username }}</h1>
@@ -29,5 +28,4 @@
         <p>
             {{ wrong_answers }}
         </p>
-    </body>
-</html>
+{% endblock %}
