@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    <br/>
+    <img alt="Quizzly logo" class="center" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="80">
+    <br/>
+    <h2 align="center">Please enter your log in details below</h2>
+    <div class="container" align="center">
+{#        <label for="uname"><b>Username</b></label>#}
+        <input type="text" placeholder="Enter Username" name="uname" required>
+{#        <label for="psw"><b>Password</b></label>#}
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <div class="row" align="center"></div>
+        <button type="submit" class="small-button-custom">Login</button>
+        <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+    </div>
+{% endblock %}

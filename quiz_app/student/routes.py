@@ -5,7 +5,7 @@ from quiz_app.student.forms import EnterQuiz
 student = Blueprint('student', __name__)
 
 
-@student.route('/student_landing')
+@student.route('/student-login')
 def student_landing():
     name = None
     quiz_id = None
@@ -14,7 +14,7 @@ def student_landing():
         name = form.topic.data
         quiz_id = form.quiz_id.data
 
-    return render_template('student_landing.html', form=form, name=name)
+    return render_template('studentlogin.html', form=form, name=name)
 
 
 @student.route('/question')
