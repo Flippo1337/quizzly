@@ -73,14 +73,14 @@ body {
     }
 
 .loader {
-  border: 16px solid #43ccde; /* Light grey */
+  border: 16px solid #4fcadb; /* Light grey */
   border-top: 16px solid #0a5ede; /* Blue */
   border-radius: 50%;
-  width: 95px;
-  height: 95px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 105px;
+  height: 105px;
+    /*display: block;*/
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
   animation: spin 2s linear infinite;
 }
 
