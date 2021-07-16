@@ -37,7 +37,10 @@ class Multiplication(Question):
             if x * y != correct_answer and x * y not in wrong_answers:
                 wrong_answers.append(x * y)
 
-        response = {'question': question, 'correct_answer': correct_answer, 'wrong_answers': wrong_answers}
+        all_answers = wrong_answers + [correct_answer]
+        correct_answer_index = 3
+
+        response = {'question_string': question, 'all_answers': all_answers, 'correct_answer_index': correct_answer_index}
         return response
 
 
@@ -74,10 +77,13 @@ class QuadraticEqNumberOfRoots(Question):
         else:
             correct_answer = 0
 
-        wrong_answers = [0, 1, 2, 3]
-        wrong_answers.remove(correct_answer)
+        all_answers = [0, 1, 2, 3]
+        correct_answer_index = all_answers.index(correct_answer)
 
-        response = {'question': question, 'correct_answer': correct_answer, 'wrong_answers': wrong_answers}
+
+
+
+        response = {'question_string': question, 'all_answers': all_answers, 'correct_answer_index': correct_answer_index}
         return response
 
 class LinearEquationsPlot(Question):
@@ -108,6 +114,9 @@ class LinearEquationsPlot(Question):
 
         wrong_answers = [f'$${parameters[ii][0]}x {"+ " if parameters[ii][1]>=0 else ""}{parameters[ii][1]}$$' for ii in range(1,4)]
 
+        all_answers = wrong_answers + [correct_answer]
+        correct_answer_index = 3
+
         fig = Figure()
         axis = fig.add_subplot(1, 1, 1)
         x = np.linspace(-1, 1)
@@ -116,7 +125,7 @@ class LinearEquationsPlot(Question):
         axis.grid()
 
 
-        response = {'question': question, 'correct_answer': correct_answer, 'wrong_answers': wrong_answers, 'figure': fig}
+        response = {'question_string': question, 'all_answers': all_answers, 'correct_answer_index': correct_answer_index, 'figure': fig}
         return response
 
 

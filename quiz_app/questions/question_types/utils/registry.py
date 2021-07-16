@@ -32,7 +32,7 @@ class QuestionRegistry:
         for ii, question_seed in enumerate(seeds):
             question_class = random.choice(filtered_questions)
             q = question_class(seed=question_seed)
-            questions.append(q.generate())
+            questions.append(q.render())
 
         return questions
 
