@@ -4,7 +4,7 @@
     <img alt="Quizzly logo" class="center" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="80">
     <h2 style="margin: 2px" align="center">Please enter the Quiz ID and your username below</h2>
     <div class="container" align="center">
-    <div method="POST">
+    <form method="POST">
         {{ form.hidden_tag() }}
         <div class="row" align="center" style="width: 40%">
         {{ form.name.label}}
@@ -19,6 +19,16 @@
                 {{ form.submit(class_="other-button-custom") }}
             </a>
         </nav>
+    </form>
+    {%  for mess  in get_flashed_messages() %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Quiz ID not found!</strong>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+    </button>
+    {{mess}}
+    {%  endfor %}
     </div>
+
     </div>
 {% endblock %}

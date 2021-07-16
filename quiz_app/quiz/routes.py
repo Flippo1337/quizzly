@@ -1,7 +1,7 @@
 import json
 import uuid
 
-from flask import render_template, request, Blueprint
+from flask import render_template, request, Blueprint, redirect, url_for, session
 from quiz_app.quiz.forms import GenerateQuizForm
 from quiz_app.models import Question, Quiz
 from quiz_app import db
@@ -22,7 +22,6 @@ def create_quiz():
     form = GenerateQuizForm()
 
     if form.validate_on_submit():
-        topic = form.topic.data
         # teacher submits form
         # create quiz (mock it for now)
         # insert all quiz components into database
@@ -33,10 +32,11 @@ def create_quiz():
 
         # Add to db
         # Add quiz
-        quiz_uid = uuid.uuid4()
+        quiz_uid = str(uuid.uuid4())
         quiz = Quiz(quiz_uid=quiz_uid)
         db.session.add(quiz)
-        quiz_id = db.session.query(Quiz).filter_by(quiz_uid=quiz_uid)
+        quiz_id = db.session.query(Quiz).filter_by(quiz_uid=quiz_uid).one().quiz_id
+        session['quiz_id'] = quiz_id
         i = 0
         for correct_answer_index, question_json in zip(correct_answer_indices, json_questions):
             question = Question(quiz_id=quiz_id,
@@ -45,5 +45,12 @@ def create_quiz():
                                 question_number=i)
             db.session.add(question)
             i += 1
+        db.session.commit()
+        return redirect(url_for('quiz.quiz_lobby'))
 
     return render_template('create_quiz.html', form=form, topic=topic)
+
+
+@quiz.route('/quiz_lobby', methods=['GET', 'POST'])
+def quiz_lobby():
+    return render_template('teacher_quiz_lobby.html', quiz_id=session['quiz_id'])

@@ -17,7 +17,7 @@ class Question(db.Model):
     __tablename__ = 'question'
 
     question_id = db.Column(db.Integer, primary_key=True)
-    quiz_id = db.Column(db.Text, db.ForeignKey('quiz.quiz_id'))
+    quiz_id = db.Column(db.Integer, db.ForeignKey('quiz.quiz_id'))
     question_number = db.Column(db.Integer)
     question_json = db.Column(db.String)
     correct_answer_index = db.Column(db.Integer)
