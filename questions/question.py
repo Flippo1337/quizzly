@@ -2,7 +2,9 @@ import numpy
 import random
 from collections.abc import Iterable
 
-class Question():
+class Question:
+    tags = set()
+
     def __init__(self, seed=0, language='en'):
         self._seed = seed
         random.seed(seed)
@@ -12,7 +14,8 @@ class Question():
 
         self.language = language
 
-    def render(self):
+
+    def generate(self):
         pass
 
     def randint(self, lower_bound, upper_bound, exclude=None):
@@ -23,4 +26,6 @@ class Question():
             if not isinstance(exclude, Iterable):
                 exclude = (exclude, )
             return random.choice(list(set(range(lower_bound, upper_bound+1))-set(exclude)))
+
+
 

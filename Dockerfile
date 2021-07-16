@@ -1,4 +1,5 @@
 FROM python:3.9-slim-buster
+# FROM python:3.10.0b4-slim-buster
 
 
 # copy poetry files
@@ -11,6 +12,8 @@ WORKDIR /tmp
 
 # update and remove cache
 RUN apt-get update \
+&& apt-get update \
+&& apt-get install -y gettext \
 && apt-get install -y libpq-dev \
 && apt-get install -y g++ \
 && apt-get update && ACCEPT_EULA=Y apt-get install -y unixodbc-dev \

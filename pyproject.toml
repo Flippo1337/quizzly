@@ -13,6 +13,9 @@ scipy = "^1.7.0"
 sympy = "^1.8"
 matplotlib = "^3.4.2"
 Flask = "^2.0.1"
+Flask-SQLAlchemy = "^2.5.1"
+python-gettext = "^4.0"
+qrcode = "^7.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.4"

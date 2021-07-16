@@ -15,7 +15,7 @@ def index():
     name = 'Homer'
 
     q = QuadraticEqNumberOfRoots(random.randint(0, 2**10))
-    question, correct_answer, wrong_answers = q.render()
+    question, correct_answer, wrong_answers = q.generate()
 
     return render_template('index.html', title='Welcome', username=name, question=question, correct_answer=correct_answer, wrong_answers=wrong_answers)
 
