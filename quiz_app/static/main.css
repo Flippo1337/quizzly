@@ -45,3 +45,18 @@ body {
     margin:10px;
     text-align: center;
     }
+
+.small-button-custom {
+    background-color: #242edd;
+    color: #f7f6f8;
+    height: 35px;
+    width: 60px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin:5px;
+    text-align: center;
+    padding-bottom: 1px;
+    }
