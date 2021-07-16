@@ -4,14 +4,13 @@
     <h6 align="center" class="site-header"> Welcome to </h6>
     <h1 align="center" class="site-header"> Quizzly </h1>
     <br>
-    <h3 align="center" class="site-header">Choose your quiz type</h3>
-    <nav align="center"><a href="{{ url_for('addition_quiz')}}">Addition</a></nav>
-    <nav align="center"><a href="{{ url_for('subtraction_quiz')}}">Subtraction</a></nav>
-    <br/>
-    <img class="center" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="175">
+    <img alt="Quizzly logo" class="center" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="110">
+    <br>
+    <h3 align="center" class="site-header">Choose your user type</h3>
     <div class="btn-group-vertical" style="display: flex; align-items: center">
-        <button class="other-button-custom">
-            Log In/Register
-        </button>
+        <button class="other-button-custom">Student</button>
+        <button class="other-button-custom">Teacher</button>
     </div>
+{#    <nav align="center"><a href="{{ url_for('addition_quiz')}}">Addition</a></nav>#}
+{#    <nav align="center"><a href="{{ url_for('subtraction_quiz')}}">Subtraction</a></nav>#}
 {% endblock %}

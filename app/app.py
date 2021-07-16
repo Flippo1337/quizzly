@@ -10,6 +10,16 @@ def index():
     return render_template('home.html')
 
 
+@app.route('/student-login')
+def student_login():
+    return render_template('studentlogin.html')
+
+
+@app.route('/teacher-login')
+def teacher_login():
+    return render_template('teacherlogin.html')
+
+
 @app.route('/quiz/addition')
 def addition_quiz():
     question_data = generate_two_number_addition_or_subtraction_question('addition')
