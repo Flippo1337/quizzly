@@ -5,7 +5,7 @@ from flask import Flask, render_template
 from question_generator import generate_two_number_addition_or_subtraction_question
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, RadioField, SubmitField
+from wtforms import StringField, RadioField, SubmitField
 from wtforms.validators import DataRequired, NumberRange
 
 
@@ -22,6 +22,12 @@ db = SQLAlchemy(app)
 # FORMS
 class GenerateQuizForm(FlaskForm):
     topic = RadioField("Choose topic:", choices=[('addition', 'Addition'), ('subtraction', 'Subtraction')])
+    submit = SubmitField('Submit')
+
+
+class EnterQuizForm(FlaskForm):
+    name = StringField("Name:")
+    quiz_id = StringField("Quiz ID:")
     submit = SubmitField('Submit')
 
 

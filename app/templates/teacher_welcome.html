@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content%}
+<h1>Welcome to Quizzly! Here you can design your quiz:</h1>
 <form method="POST">
     {{ form.hidden_tag() }}
     {{ form.topic.label}}{{form.topic()}}
