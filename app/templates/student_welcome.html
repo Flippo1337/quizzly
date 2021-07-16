@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content%}
+<h1>Welcome to the Quizzly! Please enter your name and the quiz ID:</h1>
+<nav><a href="{{ url_for('addition_quiz')}}">Addition</a></nav>
+<nav><a href="{{ url_for('subtraction_quiz')}}">Subtraction</a></nav>
+{% endblock %}
