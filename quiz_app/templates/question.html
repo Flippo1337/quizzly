@@ -1,15 +1,14 @@
 {%  extends "base.html" %}
 
-{% block scripts %}
-     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
-{% endblock %}
-
 {% block content%}
-<h1>{{question}}</h1>
-<div class="d-grid gap-2">
-  {% for answer in answers %}
-  <button class="btn btn-primary" type="button">{{answer}}</button>
-  {% endfor %}
-</div>
+    <img class="center" style="margin-bottom: 10px" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="75">
+    <h5 align="center">Please complete the quiz by choosing one of the following multiple choice answers for each question</h5>
+    <br>
+    <h2 align="center">{{question}}</h2>
+    <br/>
+    <div class="btn-group-vertical" style="display: flex; align-items: center">
+        {% for answer in answers %}
+            <button class="quiz-button-custom">{{answer}}</button>
+        {% endfor %}
+    </div>
 {% endblock %}
