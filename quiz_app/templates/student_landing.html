@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+    <br/>
+    <h6 align="center" class="site-header"> Welcome to </h6>
+    <h1 align="center" class="site-header"> Quizzly </h1>
+    <br>
+
+    <div align="center">
+    <form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.name.label}}{{form.name()}}
+    {{ form.quiz_id.label}}{{form.quiz_id()}}
+    {{ form.submit() }}
+    </form>
+    </div>
+
+
+{% endblock %}
