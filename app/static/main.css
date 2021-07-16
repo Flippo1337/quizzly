@@ -6,7 +6,7 @@ body {
   color: #062d81;
 }
 
-.button-custom {
+.quiz-button-custom {
     background-color: #1240ea;
     color: #f7f6f8;
     padding: 10px;
@@ -21,7 +21,7 @@ body {
     }
 
 /* Add a background color on hover */
-.button-custom button:hover {
+.quiz-button-custom button:hover {
   background-color: #0536ea;
 }
 
@@ -30,3 +30,18 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.other-button-custom {
+    background-color: #242edd;
+    color: #f7f6f8;
+    padding: 10px;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin:10px;
+    text-align: center;
+    }
