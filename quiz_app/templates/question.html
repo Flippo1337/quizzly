@@ -5,27 +5,11 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> </script>
 {% endblock %}
 
-{% block content %}
-{% if username == "Rosalia": %}
-        <h1>Hello my love</h1>
-	{% else %}
-        <h1>Hello {{ username }}</h1>
-	{% endif %}
-        <p>
-          When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
-          \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
-        </p>
-        Question:
-        <p>
-            {{ question }}
-        </p>
-
-        Correct answer:
-        <p>
-            {{ correct_answer }}
-        </p>
-        Wrong answers:
-        <p>
-            {{ wrong_answers }}
-        </p>
+{% block content%}
+<h1>{{question}}</h1>
+<div class="d-grid gap-2">
+  {% for answer in answers %}
+  <button class="btn btn-primary" type="button">{{answer}}</button>
+  {% endfor %}
+</div>
 {% endblock %}

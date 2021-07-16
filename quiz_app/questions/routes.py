@@ -1,15 +1,21 @@
 from flask import render_template, Blueprint
-from quiz_app.questions.question_types.math_questions.sample_questions import QuadraticEqNumberOfRoots
+from quiz_app.questions.question_types.question_generator import generate_two_number_addition_or_subtraction_question
 import random
 
 questions = Blueprint('questions', __name__)
 
 
-@questions.route('/question')
-def question():
-    q = QuadraticEqNumberOfRoots(random.randint(0, 2 ** 10))
-    question, correct_answer, wrong_answers = q.render()
+@questions.route('/addition')
+def addition_quiz():
+    question_data = generate_two_number_addition_or_subtraction_question('addition')
+    return render_template('question.html', question=question_data['question_string'],
+                           answers=question_data['all_answers'])
 
-    return render_template('question.html', title='Welcome', question=question, correct_answer=correct_answer, wrong_answers=wrong_answers)
+@questions.route('/subtraction')
+def subtraction_quiz():
+    question_data = generate_two_number_addition_or_subtraction_question('subtraction')
+    return render_template('question.html', question=question_data['question_string'],
+                           answers=question_data['all_answers'])
+
 
 
