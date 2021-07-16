@@ -12,7 +12,6 @@ try:
 except:
     _ = gettext.gettext
 
-print(_("hu"))
 
 class Multiplication(Question):
     tags = ('multiplication')
