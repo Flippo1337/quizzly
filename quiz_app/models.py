@@ -44,6 +44,6 @@ class Answer(db.Model):
     answer_id = db.Column(db.Integer, primary_key=True)
     question_id = db.Column(db.Text, db.ForeignKey('question.question_id'))
     user_id = db.Column(db.Integer, db.ForeignKey('user.user_id'))
-    answer = db.Column(db.Text)
+    answer_index = db.Column(db.Integer)
     question = db.relationship('Question', backref='answers', lazy=True)
     user = db.relationship('User', backref='answers', lazy=True)

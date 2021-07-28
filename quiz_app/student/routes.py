@@ -1,3 +1,4 @@
+import pandas as pd
 from flask import render_template, request, Blueprint, redirect, url_for, flash, session
 import json
 
@@ -52,18 +53,16 @@ def question():
     username = session['username']
     user = db.session.query(User).filter_by(quiz_id=quiz_id, user_name=username).all()
     user = user[0]
+    # TODO: make sure we only have one user and identify by id (in session?)
 
     if request.method == 'POST':
-        answer = request.values.get('answer')
+        answer_index = int(request.values.get('answer_index'))
         question_id = request.values.get('question_id')
-        answer = Answer(user=user, question_id=question_id, answer=answer)
+        answer = Answer(user=user, question_id=question_id, answer_index=answer_index)
         db.session.add(answer)
         db.session.commit()
-        return redirect(url_for('student.question'))
+        return redirect(url_for('student.quiz_results'))
 
-
-
-    # TODO: make sure we only have one user and identify by id (in session?)
 
     answers = user.answers
     if len(answers) > 0:
@@ -94,8 +93,32 @@ def question():
 
 @student.route('/quiz_results')
 def quiz_results():
+    quiz_id = session['quiz_id']
+    username = session['username']
+    user = db.session.query(User).filter_by(quiz_id=quiz_id, user_name=username).all()
+    user = user[0]
+    user_id = user.user_id
+
+    answers = db.session.query(Answer).filter_by(user_id=user_id).join(Question).filter_by(quiz_id=quiz_id).\
+        order_by(Question.question_number.desc()).all()
+
+    answered_correctly = answers[0].question.correct_answer_index == answers[0].answer_index
+    score = {}
+
+    for answer in answers:
+        score[answer.question.question_number] = (answer.question.correct_answer_index == answer.answer_index)
+
+    print(score)
+    df = pd.DataFrame(data=score.items())
+
+    users = db.session.query(User).filter_by(quiz_id=quiz_id).all()
+
+
+
     # temp to show example - would need dynamic update
     question_data = generate_two_number_addition_or_subtraction_question('addition')
     return render_template('quiz_results.html',
                            question=question_data['question_string'],
-                           correct_answer=question_data['correct_answer'])
+                           correct_answer=question_data['correct_answer'],
+                           answered_correctly=answered_correctly,
+                           table=df.to_html())

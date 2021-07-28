@@ -14,6 +14,7 @@ class Question:
         self._seed = seed
         random.seed(seed)
         numpy.random.seed(seed)
+        self.title = ""
 
     def generate(self):
         pass

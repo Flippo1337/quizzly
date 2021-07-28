@@ -4,8 +4,14 @@
     <img alt="Quizzly logo" class="center" src="{{ url_for('static', filename='images/quizzly logo.png')}}" width="60">
     <br/>
 {#    # needs to update dynamically#}
-    <h4 align="center">You answered incorrectly.</h4>
-    <h5 align="center">The correct answer was {{ correct_answer }}.</h5>
+    {% if answered_correctly %}
+        <h4 align="center">You answered correctly :)</h4>
+    {% else %}
+        <h4 align="center">You answered incorrectly :(</h4>
+    {% endif %}
+
+    {{ table }}
+
     <br/>
         <div class="center" style="margin-bottom: 10px; border: 3px solid #555; width: 50%; text-align: center">
             <h4 style="margin: 20px;">{{ question }}</h4>
