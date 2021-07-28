@@ -9,14 +9,21 @@
     {% else %}
         <h4 align="center">You answered incorrectly :(</h4>
     {% endif %}
+    <br/>
 
-    {{ table }}
+    {{ table|safe }}
+    <br/>
+    <div style="text-align:center">
+      <a href="{{ url_for('student.question') }}">Next Question</a>
+    </div>
 
+    <!--
     <br/>
         <div class="center" style="margin-bottom: 10px; border: 3px solid #555; width: 50%; text-align: center">
             <h4 style="margin: 20px;">{{ question }}</h4>
             <h4 style="margin: 20px;">{{ correct_answer }}</h4>
         </div>
     <br/>
-    <h4 align="center">Score: 2/10</h4>
+    <h4>Score: 2/10</h4>
+    -->
 {% endblock %}

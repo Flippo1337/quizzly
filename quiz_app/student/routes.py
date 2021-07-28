@@ -109,8 +109,8 @@ def quiz_results():
         score[answer.question.question_number] = (answer.question.correct_answer_index == answer.answer_index)
 
     print(score)
-    df = pd.DataFrame(data=score.items())
-
+    df = pd.DataFrame(data=score.items(), columns=["Question", "Answered Correctly?"])
+    df["Answered Correctly?"].map({True: 'yes', False: 'No'})
     users = db.session.query(User).filter_by(quiz_id=quiz_id).all()
 
 
@@ -121,4 +121,4 @@ def quiz_results():
                            question=question_data['question_string'],
                            correct_answer=question_data['correct_answer'],
                            answered_correctly=answered_correctly,
-                           table=df.to_html())
+                           table=df.to_html(index=False, classes='score', bold_rows=True))
