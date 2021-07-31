@@ -15,13 +15,8 @@ RUN apt-get update \
 && apt-get install -y g++ \
 && apt-get update && ACCEPT_EULA=Y apt-get install -y unixodbc-dev \
 && apt-get install --assume-yes curl \
-# MSODBC
-# && apt-get install -y gnupg2 \
-# && curl https://packages.microsoft.com/keys/microsoft.asc | apt-key add - \
-# && curl https://packages.microsoft.com/config/debian/10/prod.list > /etc/apt/sources.list.d/mssql-release.list \
-#&& apt-get update \
-# && ACCEPT_EULA=Y apt-get install --assume-yes msodbcsql17 \
-&& rm -rf /var/lib/apt/lists/*
+&& rm -rf /var/lib/apt/lists/* \
+&& apt-get clean
 
 RUN pip install poetry \
 && poetry config virtualenvs.create false --local \
