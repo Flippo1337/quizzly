@@ -21,3 +21,5 @@ update.input_file = 'messages.pot'
 update.output_dir = 'translations'
 update.run()
 # pybabel update -i messages.pot -d translations
+
+#TODO: delete messages.pot when done
