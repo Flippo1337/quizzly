@@ -5,13 +5,14 @@ import numpy as np
 
 from quiz_app.questions.question_types.utils.question import Question
 
+#
+# import gettext
+# try:
+#     _("")
+# except:
+#     _ = gettext.gettext
 
-import gettext
-try:
-    _("")
-except:
-    _ = gettext.gettext
-
+from flask_babel import gettext as _
 
 class Multiplication(Question):
     tags = ('multiplication')

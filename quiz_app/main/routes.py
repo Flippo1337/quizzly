@@ -1,5 +1,6 @@
 from flask import render_template, request, Blueprint
 from quiz_app.questions.question_types.question_generator import generate_two_number_addition_or_subtraction_question
+from flask_babel import gettext
 
 main = Blueprint('main', __name__)
 
@@ -13,4 +14,5 @@ def index():
 
 @main.route("/about")
 def about():
-    return render_template('about.html', title='About')
+    print(gettext('Hello World'))
+    return render_template('about.html', title=gettext('About'))
